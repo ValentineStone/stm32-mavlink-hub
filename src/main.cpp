@@ -61,7 +61,7 @@ Input_t InputB { MAVLINK_COMM_1, SerialB, SerialC, Led };
 
 void setup() {
   SerialA.begin(57600);
-  SerialB.begin(57600);
+  SerialB.begin(115200);
   SerialC.begin(57600);
   Led.setup();
 }
